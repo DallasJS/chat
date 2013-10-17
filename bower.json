@@ -1,0 +1,8 @@
+{
+	"name": "chat",
+	"dependencies": {
+		"bootstrap": "3.0.x",
+		"jquery": "2.0.x",
+		"socket.io-client": "0.9.x"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"name": "chat",
+	"dependencies": {
+		"feathers": "0.2.x"
+	}
+}
