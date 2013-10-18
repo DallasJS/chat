@@ -1,0 +1,25 @@
+<div class="row">
+	<div class="col-md-8">
+		<div class="input-group">
+			<span class="input-group-addon">></span>
+			<input type="text" class="form-control chat" placeholder="Enter message"/>
+		</div>
+
+		<ul>
+			<% list(messages, function(msg) { %>
+				<li class="list-group-item">
+					<em><%= msg.timestamp %></em> | <%= msg.user %>: <%= msg.text %>
+				</li>
+			<% }) %>
+		</ul>
+	</div>
+
+	<ul class="list-group col-md-4">
+		<% list(users, function(usr) { %>
+			<li class="list-group-item">
+				<span class="glyphicon glyphicon-user"></span>
+				<%= usr.name %>
+			</li>
+		<% }) %>
+	</ul>
+</div>
