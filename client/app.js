@@ -43,7 +43,7 @@ var Chatbox = can.Control.extend({
 
 });
 
-var socket = io.connect(),
+var socket = io.connect('http://localhost:8000'),
 messages = new can.List([]),
 users = new can.List([]);
 
