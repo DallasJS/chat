@@ -1,9 +1,9 @@
 {
 	"name": "chat",
 	"dependencies": {
-		"feathers": "0.2.x"
+		"bower": "1.2.8"
 	},
 	"scripts": {
-		"start": "node server"
+		"postinstall": "node_modules/bower/bin/bower install"
 	}
 }

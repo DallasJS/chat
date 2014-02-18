@@ -2,8 +2,9 @@
 	"name": "chat",
 	"dependencies": {
 		"bootstrap": "3.0.x",
-		"canjs": "2.0.x",
-		"jquery": "2.0.x",
-		"socket.io-client": "0.9.x"
+		"canjs": "2.0.5",
+		"jquery": "2.1.0",
+		"firebase": "1.0.6",
+		"firebase-simple-login": "1.2.5"
 	}
 }
